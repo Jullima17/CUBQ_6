@@ -1,0 +1,102 @@
+@media screen and (min-width: 884px) {
+
+  .logo-link .logo {
+    height: 40px;
+    width: unset;
+  }
+
+  .logo-link .logo-img {
+    height: 35px;
+    width: unset;
+  }
+
+  .logos-container {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .logo-link .logo-img {
+    height: 25px;
+    width: unset;
+  }
+
+  .logo-link .logo {
+    height: 30px;
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  footer {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+    position: fixed;
+    bottom: 3vw;
+  }
+  .logos-container {
+    width: 100% !important;
+    justify-content: center;
+    margin-right: 0 !important;
+  }
+
+  .logo-link .logo-img {
+    height: 20px;
+  }
+
+  .logo-link .logo {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  footer.footer {
+    height: 80px;
+  }
+}
+
+@media (max-width: 321px) {
+  footer {
+    height: 60px !important;
+  }
+}
+
+footer {
+  display: flex !important;
+  justify-content: right;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+}
+
+.logos-container {
+  display: flex;
+  margin-right: 3.2%;
+}
+
+.logo-link {
+  height: fit-content;
+  margin: 0 10px;
+}
+
+.logo-img {
+  height: 20px;
+  width: unset;
+}
+
+.logo {
+  width: unset;
+  height: 17px;
+}
+
+@media (orientation: landscape) and (max-width: 916px) {
+  footer {
+    position: absolute;
+  }
+
+  .logos-container {
+    margin-right: 3.2%;
+  }
+}

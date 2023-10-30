@@ -1,0 +1,31 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:900";
+
+@font-face {
+  font-family: "Zapfdingbats";
+  src: url("./Zapf-Dingbats-Regular.woff");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+.text-div {
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: 2px;
+}
+
+.dud {
+  color: #e5e2e2;
+  font-family: "Zapfdingbats";
+  font-weight: 900;
+}
